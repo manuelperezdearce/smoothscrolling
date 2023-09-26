@@ -10,4 +10,3 @@ https://www.npmjs.com/package/react-scroll?activeTab=readme
 2.- npm i
 3.- npm i react-scroll if it's necessary
 4.- npm run dev
-
