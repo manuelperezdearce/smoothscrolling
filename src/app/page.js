@@ -6,11 +6,14 @@ import Services from "./pages/Services";
 
 export default function App() {
   return (
-    <div className="">
+    <div className="flex justify-center">
       <Navbar />
-      <Home />
-      <Services />
-      <About />
+      <div className="[&>*]:px-2 [&>*]:shadow-lg [&>*]:max-w-[400px] ">
+        <Home />
+        <Services />
+        <About />
+      </div>
+
 
     </div>
   )
